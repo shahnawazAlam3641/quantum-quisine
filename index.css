@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+#root{
+    height: 100hv;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.nav-img{
+    width: 3rem;
+    border-radius: 50%;
+}
+.nav-links{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    align-items: center;
+}
+
+.list-item{
+   /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #212121;
+    color: aliceblue;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.name{
+   font-size: 1.5rem;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    gap: 10px;
+    /* width: 100%; */
+    /* display: none; */
+}
+
+.search-container input{
+    width: 60%;
+    height: 2rem;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.search-container button{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 0 10px;
+    color:white ;
+
+}
+
+.food-container{
+   max-width: 95%;
+   /* width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.food-card{
+    margin: 10px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    /* overflow: hidden; */
+    /* height: 100px;
+    width: 150px; */
+    transition: all 0.2s ease;
+
+}
+
+.food-card:hover{
+    transform: scale(0.95);
+  
+}
+
+.food-card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    /* border: 1px solid; */
+  /* box-shadow: 5px 10px 5px rgba(91, 89, 89, 0.676) inset; */
+  box-shadow: inset 0 0 10px 10px #000;
+}
+
+.rating{
+    width: 10px;
+    height: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: aliceblue;
+}

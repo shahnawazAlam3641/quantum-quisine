@@ -96,6 +96,10 @@
 
 }
 
+.food-card h1{
+    font-size: 1rem;
+}
+
 .food-card:hover{
     transform: scale(0.95);
   

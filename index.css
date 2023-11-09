@@ -92,7 +92,12 @@
     /* overflow: hidden; */
     /* height: 100px;
     width: 150px; */
+
+    width: 300px;
+    overflow: hidden;
+    /* background-color: red; */
     transition: all 0.2s ease;
+    
 
 }
 
@@ -105,8 +110,48 @@
   
 }
 
-.food-card img{
+.norestfound{
+    text-align: center;
+}
+
+.shimmerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.shimmer{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1rem;
+}
+
+.shimmerImg{
     width: 300px;
+    height: 200px;
+    background-color: #524c4c;
+    border-radius: 5px;
+}
+
+.shimmerName{
+    width: 240px;
+    height: 20px;
+    background-color: #524c4c;
+    border-radius: 5px;
+
+}
+
+.shimmerTags{
+    width: 180px;
+    height: 20px;
+    background-color: #524c4c;
+    border-radius: 5px;
+
+}
+
+.food-card img{
+    width: 100%;
     height: 200px;
     border-radius: 5px;
     object-fit: cover;
